@@ -19,8 +19,11 @@ function logar() {
 
     // alert(lg + "\n" + sn)
 
-    if (lg == db[0].login && sn == db[0].senha) {
+
+    for(let i=0;i<db.length;i++){
+
+        if (lg == db[i].login && sn == db[i].senha) {
         alert("Que aura")
     }
-
+    }
 }
